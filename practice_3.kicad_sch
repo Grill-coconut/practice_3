@@ -700,99 +700,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 137.16 39.37) (xy 142.24 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec22b33-1cbd-4150-8124-bd012e0a8566")
-	)
-	(wire
-		(pts
-			(xy 154.94 39.37) (xy 158.75 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687b6dca-6163-4ba0-821a-aae4a25fe2f1")
-	)
-	(wire
-		(pts
-			(xy 173.99 39.37) (xy 171.45 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71954f53-41a4-45a1-a7b5-7312167359db")
-	)
-	(wire
-		(pts
-			(xy 173.99 45.72) (xy 173.99 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f5ddcb4-f934-4e46-aca3-d166d1ad60b0")
-	)
-	(wire
-		(pts
-			(xy 120.65 39.37) (xy 124.46 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88270b40-05c0-4c29-b2b4-b8a549a7f351")
-	)
-	(wire
-		(pts
-			(xy 86.36 39.37) (xy 86.36 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a66797a3-f98d-4069-a545-9435861e543d")
-	)
-	(wire
-		(pts
-			(xy 104.14 39.37) (xy 107.95 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a99bbf02-7044-49e7-884c-70616dd6086e")
-	)
-	(wire
-		(pts
-			(xy 86.36 45.72) (xy 173.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ee88f7-6794-4b04-90e4-d60072175b44")
-	)
-	(wire
-		(pts
-			(xy 91.44 39.37) (xy 86.36 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3308212-7b36-413b-88da-7850d0397854")
-	)
 	(symbol
 		(lib_id "mylib:myResistor")
-		(at 114.3 39.37 0)
+		(at 151.13 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -800,10 +710,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "473e27c9-1ba5-4add-a566-244e5175ac08")
 		(property "Reference" "R2"
-			(at 114.3 33.02 0)
+			(at 149.86 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -813,7 +722,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 114.3 35.56 0)
+			(at 151.638 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -823,7 +732,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 114.3 39.37 0)
+			(at 151.13 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -834,7 +743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 39.37 0)
+			(at 151.13 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -845,7 +754,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 39.37 0)
+			(at 151.13 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -872,7 +781,7 @@
 	)
 	(symbol
 		(lib_id "mylib:myResistor")
-		(at 148.59 39.37 0)
+		(at 151.13 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -880,10 +789,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5019ab86-0586-4818-af2f-ccd49d6f1b53")
 		(property "Reference" "R4"
-			(at 148.59 33.02 0)
+			(at 149.86 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -893,7 +801,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 148.59 35.56 0)
+			(at 151.638 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -903,7 +811,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 148.59 39.37 0)
+			(at 151.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -914,7 +822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 39.37 0)
+			(at 151.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -925,7 +833,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 39.37 0)
+			(at 151.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1083,7 +991,7 @@
 	)
 	(symbol
 		(lib_id "mylib:myResistor")
-		(at 165.1 39.37 0)
+		(at 151.13 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1091,10 +999,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b5cdc08-af43-434a-966a-1a7b5071d303")
 		(property "Reference" "R5"
-			(at 165.1 33.02 0)
+			(at 149.86 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1104,7 +1011,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 165.1 35.56 0)
+			(at 151.638 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1114,7 +1021,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 165.1 39.37 0)
+			(at 151.13 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1125,7 +1032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 39.37 0)
+			(at 151.13 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1136,7 +1043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 39.37 0)
+			(at 151.13 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1163,7 +1070,7 @@
 	)
 	(symbol
 		(lib_id "mylib:myResistor")
-		(at 97.79 39.37 0)
+		(at 151.13 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1173,7 +1080,7 @@
 		(dnp no)
 		(uuid "a0e02379-43d9-454d-b8e3-10b7a38df1a0")
 		(property "Reference" "R1"
-			(at 97.79 33.02 0)
+			(at 149.86 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1183,7 +1090,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 97.79 35.306 0)
+			(at 151.638 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1193,7 +1100,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 97.79 39.37 0)
+			(at 151.13 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1204,7 +1111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 39.37 0)
+			(at 151.13 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1215,7 +1122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 39.37 0)
+			(at 151.13 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1242,7 +1149,7 @@
 	)
 	(symbol
 		(lib_id "mylib:myResistor")
-		(at 130.81 39.37 0)
+		(at 151.13 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1250,10 +1157,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d41026f5-be00-4b86-ad4f-fe7a37262b89")
 		(property "Reference" "R3"
-			(at 130.81 33.02 0)
+			(at 149.86 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1263,7 +1169,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 130.81 35.56 0)
+			(at 151.638 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1273,7 +1179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 130.81 39.37 0)
+			(at 151.13 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1284,7 +1190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 39.37 0)
+			(at 151.13 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1295,7 +1201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 39.37 0)
+			(at 151.13 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
